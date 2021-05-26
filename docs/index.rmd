@@ -53,17 +53,10 @@ datadrivencv::build_network_logo(CV$entries_data)
 ```
 
 
-```{r}
-if(params$pdf_mode){
-  cat("View this CV online with links at https://gabrielforest.github.io/cv/")
-} else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/gabrielforest/cv/docs/cv.pdf)")
-}
-```
 
 ## Contact 
 
-- <i class="fa fa-envelope"></i> [Email](gabrielfreitaspereira10@gmail.com)
+- <i class="fa fa-envelope"></i> gabrielfreitaspereira10@gmail.com
 
 - <i class="fa fa-phone"></i> +5515998260810
 
@@ -74,6 +67,14 @@ if(params$pdf_mode){
 - <i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/gabriel-de-freitas-pereira-925260205)
 
 
+
+```{r}
+if(params$pdf_mode){
+  cat("View this CV online with links at https://gabrielforest.github.io/cv/")
+} else {
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/gabrielforest/cv/docs/cv.pdf)")
+}
+```
 
 
 
