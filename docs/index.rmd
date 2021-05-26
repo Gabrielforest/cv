@@ -61,12 +61,19 @@ if(params$pdf_mode){
 }
 ```
 
-Contact {#contact}
---------------------------------------------------------------------------------
+## Contact 
 
-```{r}
-CV %>% print_contact_info()
-```
+- <i class="fa fa-envelope"></i> [Email](gabrielfreitaspereira10@gmail.com)
+
+- <i class="fa fa-phone"></i> +5515998260810
+
+- <i class="fa fa-github"></i> [GitHub: `@`Gabrielforest](https://github.com/Gabrielforest)
+
+- <i class="fa fa-home"></i>[Portfolio](https://gabrielforest.github.io/portfolio/)
+
+- <i class="fa fa-linkedin"></i> [Linkedin](https://www.linkedin.com/in/gabriel-de-freitas-pereira-925260205)
+
+
 
 
 
@@ -102,42 +109,6 @@ CV %<>% print_text_block("intro")
 ```
 
 
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('education')
-```
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('research_positions')
-```
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-
-
 Data Science Writing {data-icon=chart-line}
 --------------------------------------------------------------------------------
 
@@ -150,4 +121,21 @@ CV %<>% print_text_block('data_science_writing_aside')
 ```{r}
 CV %<>% print_section('data_science_writings')
 ```
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('education')
+```
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
+
 
