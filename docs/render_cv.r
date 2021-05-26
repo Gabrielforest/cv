@@ -18,4 +18,4 @@ rmarkdown::render(input = "docs/index.rmd",
 
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
-                       output = "cv.pdf")
+                       output = "docs/index.pdf")
