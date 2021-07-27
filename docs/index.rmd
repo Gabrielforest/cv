@@ -70,7 +70,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at https://gabrielforest.github.io/cv/")
+  cat("View this CV online at https://gabrielforest.github.io/cv/")
 } else {
   cat("[<i class='fas fa-download'></i> Download this CV as PDF file](https://github.com/Gabrielforest/cv/raw/master/docs/index.pdf)")
 }
