@@ -140,3 +140,9 @@ CV %<>% print_section('research_positions')
 ```
 
 
+Industry Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('industry_positions')
+```
