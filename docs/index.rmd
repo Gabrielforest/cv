@@ -9,6 +9,8 @@ output:
   pagedown::html_resume:
     css: ['dd_cv.css', 'resume']
     self_contained: true
+    includes:
+      in_header: favicon.html
 ---
 
 ```{r, include=FALSE}
